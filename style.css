@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+.online {
+  background-color: rgb (252,252,252);
+  font-size: 15px;
+  color: grey;
+  text-align: right;
+  padding: 10px;
+}
+
+
+.vertical {
+    box-shadow: 0 4px 8px 0 rgba(7,1, 5, 3);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr;
+  
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+    grid-column: span 2;
+}
+
+img {
+  border-radius: 50%;
+border-color: rgb(82, 180, 117);
+  grid-column: span 2;
+
+}
+
+.checked {
+    color: #AD9C00;
+  grid-column: span 2;
+
+}
+
+.bottom {
+    background-color: #ebedeb;
+    padding: 3%;
+    grid-column: span 2;
+}
+
+img {
+    border-radius: 50%;
+    margin: 5%;
+    grid-column: span 2;
+}
+
+.checked {
+    color: orange;
+}
+
+.middle {
+    background-color: #ebedeb;
+    padding: 3%;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.checked {
+    color: #FF8C00;
+}
+
+.middle {
+    background-color: #ebedeb;
+    padding: 3%;
+    grid-column: span 2;
+}
+
+.buttons {
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    width: 100%;
+}
+ 
+
+.button1 { 
+  background-color: rgb(130, 207, 144); 
+  font-size: 30px;
+  height: 10vh;
+  width: 100%;
+}
+
+.button2 { 
+  background-color:  rgb(82, 180, 117);
+  font-size: 30px;
+  height: 10vh;
+   width: 100%;
+}
+
+#phone {
+  width: 30px;
+  height: 30px;
+ 
+}
+
+#comment{
+  width: 30px;
+  height: 30px;
+}
